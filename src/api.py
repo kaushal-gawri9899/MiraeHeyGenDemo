@@ -357,8 +357,9 @@ async def new_streaming_request(request: StreamingRequest):
 
     file_paths = [
                 #   './messi1.mp4', './messi1.mp4',
-                '../resources/football.mp4','../resources/football.mp4' , '../resources/football.mp4' 
-                #   './big_buck_bunny_720p_5mb.mp4', 
+                # '../resources/football.mp4','../resources/football.mp4' , '../resources/football.mp4', 
+                '../resources/big_buck_bunny_720p_5mb.mp4',  '../resources/big_buck_bunny_720p_5mb.mp4'
+                #   '../resources/dheeraj_qa.mp4','../resources/dheeraj_qa.mp4'
                   ]
    
     player = CustomMiraeMediaPlayer(files=file_paths, options={"fflags": "+genpts"})
